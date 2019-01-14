@@ -18,7 +18,7 @@ public class AtualizandoPrimeiroObjeto {
 		cliente.setNome("Teste12");
 		cliente.setIdade(25);
 		em.getTransaction().commit();
-		
+		System.out.println("incluindo teste, add comentário");// teste arquivos do git
 		System.out.println("Cliente atualizado com sucesso!");
 		//em.close();
 	}
